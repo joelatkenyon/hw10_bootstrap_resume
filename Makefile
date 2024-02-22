@@ -7,10 +7,10 @@
 all: PutHTML
 
 PutHTML:
-	cp achievements.html /var/www/html/hw8_website_resume/
-	cp gallery.html /var/www/html/hw8_website_resume/
-	cp index.html /var/www/html/hw8_website_resume/
-	cp -r images /var/www/html/hw8_website_resume/
+	cp achievements.html /var/www/html/hw10_bootstrap_resume/
+	cp gallery.html /var/www/html/hw10_bootstrap_resume/
+	cp index.html /var/www/html/hw10_bootstrap_resume/
+	cp -r images /var/www/html/hw10_bootstrap_resume/
 
 	echo "Current contents of your HTML directory: "
-	ls -l /var/www/html/hw8_website_resume/
+	ls -l /var/www/html/hw10_bootstrap_resume/
